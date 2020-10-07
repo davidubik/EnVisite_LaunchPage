@@ -1,0 +1,69 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* SECTION IMG CONTAINER*/
+.imgContainer
+{
+    margin-left: 30%;
+    font-size: 4em;
+    position : absolute;
+    margin-top: 10%;
+}
+
+/* img
+{
+  width: 500px;
+} */
+
+.fa-arrow-down
+{
+  margin-top: 20%;
+  margin-left: 50%;
+  font-size: 3em;
+}
+
+#liveRoomContainer
+{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* SECTION LIVE ROOM CONTAINER*/
+
+/* #liveRoomContainer
+{
+  background: #a097ce;
+  color: #fff;
+  text-align: center;
+  font-size: 4em;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  margin-top: -480px;
+} */
+
+.ani-boxes > div {
+  text-align: center;
+  font-size: 4em;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: #000;
+  border-radius: 4px;
+  padding: 1em;
+  
+}
+
+
+
+.ani-boxes:nth-child(even) > div {
+  background: white;
+}
+
+.ani-boxes:nth-child(odd) > div {
+  background: #f4645f;
+}
